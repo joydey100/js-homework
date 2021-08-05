@@ -42,3 +42,25 @@ function minValue(student, banker, developer) {
   return Math.min(student, banker, developer);
 }
 
+//  ====== Sum of all the Array Number ====== //
+
+let arrNumber = [40, 8, 87, 45, 95, 75, 25, 41];
+let total = 0;
+
+for (let i = 0; i < arrNumber.length; i++) {
+  total += arrNumber[i];
+}
+
+// With a Function
+
+let arrNumber2 = [40, 8, 87, 45, 95, 75, 25, 41];
+let total2 = 0;
+
+function arrNumbersSum(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    total2 += arr[i];
+  }
+  return total2;
+}
+let valueNumber = arrNumbersSum(arrNumber2);
+console.log(valueNumber);
