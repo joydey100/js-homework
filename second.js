@@ -62,5 +62,3 @@ function arrNumbersSum(arr) {
   }
   return total2;
 }
-let valueNumber = arrNumbersSum(arrNumber2);
-console.log(valueNumber);
