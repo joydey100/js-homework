@@ -96,5 +96,4 @@ function smallArrayfunc(arr) {
   return smallest;
 }
 
-let newSmallValue = smallArrayfunc([14, 85, -1, 0, 75, 89, -25, -47]);
-console.log(newSmallValue);
+// Fibonacci just practice one
