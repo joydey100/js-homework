@@ -19,3 +19,12 @@ function removeArrayFunc(arr) {
 // Reverse a string
 
 let stringName = "Joy Dey";
+
+function reverseText(txt) {
+  let reverse = "";
+  for (let char of stringName) {
+    reverse = char + reverse;
+  }
+  return reverse;
+}
+
