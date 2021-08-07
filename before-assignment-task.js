@@ -76,7 +76,7 @@ function arrayCheck(arr) {
   for (let number of arr) {
     if (number >= 0) {
       postiveArray.push(number);
-    } else if (number < 0) {
+    } else {
       break;
     }
   }
