@@ -28,3 +28,40 @@ function reverseText(txt) {
   return reverse;
 }
 
+// FooBar
+
+function fooBarFunc(num) {
+  var newArr = [];
+
+  for (let i = 1; i <= num; i++) {
+    if ((i % 3 == 0) & (i % 5 == 0)) {
+      newArr.push(`Foobar`);
+    } else if (i % 3 == 0) {
+      newArr.push(`Foo`);
+    } else if (i % 5 == 0) {
+      newArr.push(`Bar`);
+    } else {
+      newArr.push(i);
+    }
+  }
+
+  return newArr;
+}
+
+// Shopping Cart
+
+let products = [
+  { name: "laptop", price: 55000, quantity: 1 },
+  { name: "mobile", price: 45000, quantity: 1 },
+  { name: "shirt", price: 500, quantity: 6 },
+  { name: "pant", price: 300, quantity: 4 },
+];
+
+function cartPriceFunc(productsArr) {
+  let cartTotal = 0;
+  for (let product of productsArr) {
+    let total = product.price + product.quantity;
+    cartTotal += total;
+  }
+  return cartTotal;
+}
