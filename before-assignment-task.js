@@ -71,7 +71,7 @@ function bestFriend(arr) {
 
 let myNumberArray = [10, 7, 8, 0, 9, 5, 7, 10, 11, -17];
 
-function arrayCheck(arr) {
+function onlyPositive(arr) {
   let postiveArray = [];
   for (let number of arr) {
     if (number >= 0) {
