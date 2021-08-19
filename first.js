@@ -4,6 +4,7 @@ function celciusToFarenheit(cel) {
   return (9 * cel) / 5 + 32;
 }
 
+console.log(celciusToFarenheit(40));
 // Farenheit to Celcius
 
 function farenheitToCelcius(far) {
@@ -43,4 +44,3 @@ function cgpa(num) {
 function interest(principle, rate, time) {
   return (principle * rate * time) / 100;
 }
-

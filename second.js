@@ -38,6 +38,8 @@ function getLargeValue(businessman, minister, army) {
   }
 }
 
+console.log(getLargeValue(140, 740, 545));
+
 // Task 02 -  Create  a function take 3 person values as  a parameter and return a small number - with Math function
 
 function minValue(student, banker, developer) {
